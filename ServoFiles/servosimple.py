@@ -16,6 +16,6 @@ for _ in range(num_repeats):
     # Move from right to left
     for i in range(right_position, left_position, -1):
         my_kit.servo[0].angle = i
-        sleep(0.01)  # Adju
+        sleep(0.01) 
 
 my_kit.servo[0].angle=110 #set to mid at the end
